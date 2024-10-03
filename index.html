@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Formulario_Bruno_Vásquez</title>
+</head>
+<body class="letra">
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <img class="logo_cft"  src="assets/img/logo_cft.jpg" alt="">
+        <a class="navbar-brand" href="#">Inicio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Admision <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Carreras
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contactanos</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="Busca tu Carrera" placeholder="Busca tu Carrera" aria-label="Busca tu Carrera">
+            <buttons class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</buttons>
+          </form>
+        </div>
+    </div>
+    </nav>
+    <h1><img class="portada" src="assets/img/portada.jpeg" alt=""></h1>
+
+      <p class="parrafo">Si tiene dudas. Usa nuestro formulario de contacto para realizar las preguntas que necesite. Recuerda que estamos para ayudarte y ofrecerte una educacion de calidad.</p>
+ 
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h1 class="text-center">Formulario</h1>
+            <form id="gallinaForm">
+        
+          <div class="mb-3">
+              <label for="nombre" class="form-label"></label>
+              <input type="text" class="form-control" name="nombre" required placeholder="Nombre">
+          </div>
+
+          <div class="mb-3">
+              <label for="apellido" class="form-label"></label>
+              <input type="text" class="form-control" name="apellido" required placeholder="Apellido">
+          </div>
+
+          <div class="mb-3">
+              <label for="telefono" class="form-label"></label>
+              <input type="text" class="form-control" name="telefono" required placeholder="Teléfono">
+          </div>
+
+          <div class="mb-3">
+              <label for="carrera" class="form-label"></label>
+              <input type="text" class="form-control" name="carrera" required placeholder="Carrera">
+          </div>
+
+          <div class="mb-3">
+              <label for="edad" class="form-label"></label>
+              <input type="number" class="form-control" name="edad" min="0" required placeholder="Edad">
+          </div>
+
+          <div class="mb-3">
+            <textarea class="form-control" placeholder="Mensaje" ></textarea>
+            <label for="floatingTextarea"></label>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Enviar</button>
+
+        </div>
+
+      </div>
+    </div>
+      
+</body>
+</html>
